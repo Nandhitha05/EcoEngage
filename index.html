@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoEngage - Promote Eco-Friendly Practices</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>EcoEngage</h1>
+            <p>Equip users with actionable strategies to live sustainably and tackle environmental challenges effectively.</p>
+            <a href="#chat-section" class="cta-button">Start Chat</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Key Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <h3>Sustainability Education:</h3>
+                    <p> Offers tips and advice on how to reduce waste, conserve resources, and make sustainable lifestyle changes easily.
+                        .</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Waste Management Assistance</h3>
+                    <p>Guides users on how to correctly dispose of different types of waste, promoting recycling and eco-friendly waste practices.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <h3>Actionable Eco Practices</h3>
+                    <p>Provides practical, everyday actions to help users reduce their environmental impact and adopt more sustainable habits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Section -->
+    <section id="chat-section" class="chat-section">
+        <div class="container">
+            <h2>Chat with EcoEngage AI</h2>
+            <div class="chat-box">
+                <div id="chat-log"></div>
+                <form id="chat-form" onsubmit="return handleUserInput()">
+                    <input type="text" id="user-input" placeholder="Ask a question..." autocomplete="off" required>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2024 EcoEngage | Empowering Climate Resilience</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
